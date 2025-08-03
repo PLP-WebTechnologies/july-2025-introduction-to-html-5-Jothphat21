@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Website</title>
+  <meta name="description" content="A demo website showcasing HTML5 semantics, accessibility, and SEO practices.">
+  <meta name="author" content="jothphat21">
+  <meta name="robots" content="index, follow">
+</head>
+
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header>
+    <h1>Welcome to My Demo Website</h1>
+    <p>This website is accessible to all users and SEO-friendly.</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <h2>Navigation</h2>
+    <ul>
+      <li><a href="#semantics">Use proper semantics</a></li>
+      <li><a href="#image">Add alt attributes to images and optimize them</a></li>
+      <li><a href="#headings">Use proper headings</a></li>
+      <li><a href="#links">Add internal & external links</a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+
+    <section id="semantics">
+      <h2>Meet the Semantics Crew</h2>
+      <p>The following are examples of semantic HTML5 tags:</p>
+      <ol>
+        <li>Header tags</li>
+        <li>Footer tags</li>
+        <li>Navigation (nav) tags</li>
+        <li>Section and article tags</li>
+      </ol>
+    </section>
+
+    <section id="image">
+      <h2>Images</h2>
+      
+      <article>
+        <h3>Image 1</h3>
+        <p>This is an image showing a girl sitting on a chair.</p>
+        <img src="Girl on a chair.jpg" alt="Girl sitting on a chair indoors" width="300" height="250">
+      </article>
+
+      <article>
+        <h3>Image 2</h3>
+        <p>This is an image of a girl communicating through a landline phone.</p>
+        <img src="Girl on a landline.jpg" alt="Girl talking on a landline telephone" width="300" height="250">
+      </article>
+    </section>
+
+    <section id="headings">
+      <h2>Using Proper Headings</h2>
+      <p>Headings should follow a logical order from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> depending on the content's structure.</p>
+      <ul>
+        <li><strong>&lt;h1&gt;</strong>  Used for the main title of the page</li>
+        <li><strong>&lt;h2&gt;</strong>  Used for subheadings under h1</li>
+        <li><strong>&lt;h3&gt;</strong>  Used for sub-subheadings, and so on</li>
+      </ul>
+    </section>
+
+    <section id="links">
+      <h2>How to Set Internal and External Links</h2>
+      <p>Example of an external link: 
+        <a href="https://google.com/" target="_blank" rel="noopener noreferrer">Visit Google for more info</a>
+      </p>
+      <p>Example of an internal link: 
+        <a href="about.html" target="_blank" rel="noopener noreferrer">Find more from us</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Schoolofcodes. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
